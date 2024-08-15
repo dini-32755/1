@@ -1,0 +1,67 @@
+.. PyWeather // (c) 2010, Patrick C. McGinty
+   pyweather[@]tuxcoder[dot]com
+
+v0.11.0
+======
+:Release Date: 2021-04-03
+* Added support of the Netatmo Weather Station.
+* Major update of weatherpub script:
+* Supports Netatmo weather station in addition to Vantage Pro.
+* Supports reading settings from the configuration file.
+* The major update attempts to be backwards-compatible, although it is very
+  likely something is still broken.
+
+v0.10.0
+======
+:Release Date: 2020-11-09
+* Python 3 support
+
+v0.9.1
+======
+:Release Date: 8/9/10
+* Enhance debug output for publication failures
+
+v0.9
+======
+:Release Date: 7/16/10
+
+* Renamed vpro-to-wu.py script to weatherpub.py
+* Add support for pwsweather.com publication
+* Add support for local file publication
+
+v0.8.2
+======
+:Release Date: 7/1/10
+
+* Fixed run-time errors in vpro-to-wu.py script
+
+v0.8.1
+======
+:Release Date: 7/1/10
+
+* Add id/password params to vpro-to-wu.py script
+* Add update delay param to vpro-to-wu.py script
+* Add TTY device selector to vpro-to-wu.py script
+
+v0.8
+========
+:Release Date: 6/25/10
+
+* Add support for VantagePro CRC
+* Add support for VantagePro DMPAFT command
+* Misc fixes for VantagePro class
+* Misc fixes for Wunderground Publisher class
+* Add vpro-to-wu.py script for uploading Davis Vantage Pro data to
+  wunderground.com
+
+v0.7.1
+========
+:Release Date: 6/24/10
+
+* Repackaged and updated build scripts.
+
+v0.7.0
+========
+:Release Date: 6/20/10
+
+* Official release from Christopher Blunk.
